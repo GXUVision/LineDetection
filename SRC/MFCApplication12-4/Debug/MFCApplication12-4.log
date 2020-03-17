@@ -1,0 +1,64 @@
+﻿生成启动时间为 2020/3/16 22:54:15。
+     1>项目“G:\LineDetection-src\MFCApplication12-4\MFCApplication12-4.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Utilities-test\includes" /IE:\803\segment /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MFCApplication12-4.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>e:\803\segment\convolve.h(41): error C2589: “(”:“::”右边的非法标记
+     1>e:\803\segment\convolve.h(41): error C2059: 语法错误:“::”
+     1>e:\803\segment\convolve.h(42): error C2589: “(”:“::”右边的非法标记
+     1>e:\803\segment\convolve.h(61): error C2589: “(”:“::”右边的非法标记
+     1>e:\803\segment\convolve.h(61): error C2059: 语法错误:“::”
+     1>e:\803\segment\convolve.h(62): error C2589: “(”:“::”右边的非法标记
+     1>e:\803\segment\imconv.h(84): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>e:\803\segment\filter.h(58): error C2589: “(”:“::”右边的非法标记
+     1>e:\803\segment\filter.h(58): error C2059: 语法错误:“::”
+     1>e:\803\segment\filter.h(58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(62): error C2061: 语法错误: 标识符“STAT_CHUNK”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(63): error C2146: 语法错误: 缺少“;”(在标识符“GetChunkType”的前面)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(63): error C2433: “ATL::IFilterChunkValue::CHUNKSTATE”: 不允许在数据声明中使用“virtual”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(63): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(63): warning C4183: “GetChunkType”:  缺少返回类型；假定为返回“int”的成员函数
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(71): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(81): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(91): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(101): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(111): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(121): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(131): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(141): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(151): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlhandler.h(63): error C2253: “ATL::IFilterChunkValue::GetChunkType”: 纯说明符或抽象重写说明符只允许在虚函数上使用
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6304): error C2061: 语法错误: 标识符“STAT_CHUNK”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6309): error C2146: 语法错误: 缺少“;”(在标识符“GetChunkType”的前面)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6309): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6310): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6312): warning C4183: “GetChunkType”:  缺少返回类型；假定为返回“int”的成员函数
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6340): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6354): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6367): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6380): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6394): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6407): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6420): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6433): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6445): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6459): error C2061: 语法错误: 标识符“CHUNKSTATE”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6464): error C2146: 语法错误: 缺少“;”(在标识符“m_chunk”的前面)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6464): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6311): error C2065: “m_chunk”: 未声明的标识符
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6311): error C2228: “.flags”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6319): error C2065: “m_chunk”: 未声明的标识符
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6319): error C2228: “.attribute”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6319): error C2228: “.guidPropSet”的左边必须有类/结构/联合
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6327): error C2065: “m_chunk”: 未声明的标识符
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6327): error C2228: “.attribute”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6327): error C2228: “.psProperty”的左边必须有类/结构/联合
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(6327): error C2228: “.propid”的左边必须有类/结构/联合
+     1>已完成生成项目“G:\LineDetection-src\MFCApplication12-4\MFCApplication12-4.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.56
